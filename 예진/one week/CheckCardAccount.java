@@ -5,6 +5,7 @@ public class CheckCardAccount {
     private String accountNumber; //계좌번호
     private String expirationDate; //만기연월
     private int balance; //잔고
+    //클래스 멤버 변수 정의
 
     public CheckCardAccount(String ownerName, String accountNumber, String expirationDate) {
         this.ownerName = ownerName;
