@@ -22,9 +22,9 @@ public class FlowerDriver {
             }else {
                 System.out.println("좋아하는 꽃이 없습니다.");
             }
-        }catch (InputMismatchException e){
+        }catch (InputMismatchException e){//정수가 아닌 값을 입력할 경우
             System.out.println("송이 수가 숫자가 아니다.");
-        }catch (IllegalAccessException e){
+        }catch (IllegalAccessException e){// 클래스나 멤버에 접근할 권한이 없을 경우
             System.out.println(e.getMessage());
         }
     }

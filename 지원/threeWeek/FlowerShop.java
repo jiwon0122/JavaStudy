@@ -18,7 +18,7 @@ public class FlowerShop {
     }
 
     public int calTotalPrice(int quantity) throws IllegalAccessException {
-        if(quantity<0){
+        if(quantity<0){//quantity가 음수일때 예외를 발생시킨다.
             throw new IllegalAccessException("송이 수가 음수라서 총 가격을 계산할 수 없다.");
         }
         return price*quantity;
